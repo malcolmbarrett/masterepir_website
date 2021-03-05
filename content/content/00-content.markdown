@@ -50,6 +50,19 @@ This will take some time as many packages will be downloaded. When complete, you
 
 **NOTE**: You may encounter an error trying to install certain packages that require additional software. A common source of such errors is needing Rtools on Windows or xcode on Mac. Read more here on how to set these up on your local computer: https://r-pkgs.org/setup.html#setup-tools
 
+
+`masterepir::install_course()` will install the course materials on your computer. Then, it will open a new RStudio Project containing the files you'll need.
+
+``` r
+masterepir::install_course()
+```
+
+By default, this package downloads the materials to a conspicous place like your Desktop. You can also tell `install_course()` exactly where to put the materials with `destdir`:
+
+``` r
+masterepir::install_course(destdir = "a/path/on/your/computer")
+```
+
 ## Set up an RStudio Cloud account
 
 We'll also be using [RStudio Cloud](https://rstudio.cloud/). Sign up for a free account. Then, join the RStudio Cloud course workspace at http://bit.ly/master_r_epi_mar21. The RStudio Cloud workspace will have all the R packages and course material you need. In other words, the course material will just work here without you having to do any setup! If you are having trouble with your local setup, we highly recommend just using this workspace.
