@@ -1,0 +1,62 @@
+---
+title: "R Markdown: Whole Game"
+linktitle: "10: R Markdown, part 1"
+module: "10"
+date: "2021-03-16"
+start_date: "2021-03-16"
+end_date: "2021-03-22"
+menu:
+  content:
+    parent: Course content
+    weight: 9
+type: docs
+toc: true
+slides: "09-slides"
+draft: false
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjT3toW48sfXBIPUNCgaHcVC"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "C3NUcdo6XqM", "01 - R Markdown: Whole Game",
+  "4KItEILR5Hw", "02 - R Markdown: Whole Game",
+  "D_qCKLKQxDw", "03 - R Markdown: Whole Game",
+  "m_r03umSBdQ", "04 - R Markdown: Whole Game",
+  "MCWEj8vzT8c", "05 - R Markdown: Whole Game",
+  "sd67JzSLVjs", "06 - R Markdown: Whole Game",
+  "7SpbWY2CXfQ", "07 - R Markdown: Whole Game",
+  "J6t3VJ6Uv1Y", "08 - R Markdown: Whole Game"
+)
+```
+
+## Required content
+- <i class="fab fa-youtube"></i> Lecture and exercises: R Markdown: Whole Game ([see below](#lecture-r-markdown-whole-game))
+
+## Suggested content
+
+- <i class="fas fa-book"></i> [R Markdown: Basics](https://bookdown.org/yihui/rmarkdown/basics.html)
+- <i class="fas fa-book"></i> [R Markdown: Documents](https://bookdown.org/yihui/rmarkdown/documents.html)
+
+
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Visual R Markdown](https://rstudio.github.io/visual-markdown-editing/#/)
+- <i class="fas fa-external-link-square-alt"></i> [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+
+## Lecture: R Markdown: Whole Game
+
+### Exercises
+
+You can find the material for the exercises in `10-rmarkdown_whole_game`
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+

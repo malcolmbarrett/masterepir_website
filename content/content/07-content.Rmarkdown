@@ -1,0 +1,83 @@
+---
+title: "Types, Vectors, and Functions"
+linktitle: "08: Types, Vectors, and Functions"
+module: "8"
+date: "2021-03-02"
+start_date: "2021-03-02"
+end_date: "2021-03-08"
+menu:
+  content:
+    parent: Course content
+    weight: 8
+type: docs
+toc: true
+slides: "07-slides"
+draft: false
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjRV9w79Mnue-OsKRY_EoHn1"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "nRXgYMBCJAY", "01 - Tidy Tuesday"
+)
+```
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjSHKZZ3waOcF6GgA8z49cSY"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "dvKB4o-Sn4o", "01 - Types, Vectors, and Functions",
+  "sk0bxnyqXCA", "02 - Types, Vectors, and Functions",
+  "t6JhBz2NdlM", "03 - Types, Vectors, and Functions",
+  "2fo09Byn58E", "04 - Types, Vectors, and Functions",
+  "f2ZjCRPSlbs", "05 - Types, Vectors, and Functions",
+  "clGLo-Tqo9M", "06 - Types, Vectors, and Functions",
+  "f-nzIeelfeA", "07 - Types, Vectors, and Functions",
+  "EAENNif0vGU", "08 - Types, Vectors, and Functions"
+)
+```
+
+## Required content
+
+- <i class="fab fa-youtube"></i> Lecture and exercises: Types and functions ([see below](#lecture-types-and-functions))
+
+## Suggested content
+- <i class="fas fa-book"></i> [R For Data Science: vectors](https://r4ds.had.co.nz/vectors.html)
+- <i class="fas fa-book"></i> [R For Data Science: functions](https://r4ds.had.co.nz/functions.html)
+- <i class="fas fa-book"></i> [Tidyverse Style Guide: functions](https://style.tidyverse.org/functions.html)
+
+## Want more practice? Try these suggested exercises
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Functions](https://r4ds.had.co.nz/functions.html)
+  - [Exercises 19.2.1](https://r4ds.had.co.nz/functions.html#exercises-50)
+    - Questions 3, 5, and 6
+  - [Exercises 19.2.1](https://r4ds.had.co.nz/functions.html#exercises-51)
+    - Question 1
+  - [Exercises 19.4.4](https://r4ds.had.co.nz/functions.html#exercises-52)
+    - Questions 1 and 2
+  - [Exercises 19.5.5](https://r4ds.had.co.nz/functions.html#exercises-53)
+    - Questions 1 and 4
+
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [RStudio Primers: Write Functions](https://rstudio.cloud/learn/primers/6)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: R Objects](https://stat545.com/r-objects.html)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Functions (pts 1-3)](https://stat545.com/functions-part1.html)
+
+## Lecture: Types and functions 
+
+### Exercises
+
+You can find the material for the exercises in `08-types_and_functions`
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```

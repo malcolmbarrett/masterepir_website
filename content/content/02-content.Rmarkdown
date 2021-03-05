@@ -1,0 +1,74 @@
+---
+title: "Transforming Data"
+linktitle: "02: Transforming Data"
+module: "2"
+date: "2021-01-26"
+start_date: "2021-01-26"
+end_date: "2021-02-01"
+menu:
+  content:
+    parent: Course content
+    weight: 3
+type: docs
+toc: true
+slides: "02-slides"
+draft: false
+---
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "B1a_AnogAuE", "01 - Transforming Data",
+  "rewqX8KfxRg", "02 - Transforming Data",
+  "QyOJ9sSbm38", "03 - Transforming Data",
+  "SGwItNK-fM4", "04 - Transforming Data",
+  "XAx6jDiTZJk", "05 - Transforming Data",
+  "K_fDSRoYieU", "06 - Transforming Data",
+  "U_e24jJwPnY", "07 - Transforming Data",
+  "ThsrrJQerLI", "08 - Transforming Data",
+)
+```
+
+
+## Required content
+- <i class="fab fa-youtube"></i> Lecture and exercises: Transforming data ([see below](#lecture-transforming-data))
+
+## Suggested content
+- <i class="fas fa-book"></i> [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Saving source and blank slates](https://rstats.wtf/save-source.html)
+- <i class="fas fa-book"></i> [Tidyverse Style Guide: Files](https://style.tidyverse.org/files.html)
+- <i class="fas fa-book"></i> [Tidyverse Style Guide: Syntax](https://style.tidyverse.org/syntax.html)
+
+## Want more practice? Try these suggested exercises
+
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
+  - [Exercises 5.2.4](https://r4ds.had.co.nz/transform.html#exercises-8)
+    - Questions 1-3
+  - [Exercises 5.3.1](https://r4ds.had.co.nz/transform.html#exercises-9)
+    - Questions 1-3
+  - [Exercises 5.6.7](https://r4ds.had.co.nz/transform.html#exercises-9)
+    - Questions 2 and 6
+
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Work with Data](https://rstudio.cloud/learn/primers/2)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Introduction to dplyr](https://stat545.com/dplyr-intro.html)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Single table dplyr functions](https://stat545.com/dplyr-single.html)
+
+
+## Lecture: Transforming data
+
+### Exercises
+
+You can find the material for the exercises in `02-dplyr_5verbs`
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+
+

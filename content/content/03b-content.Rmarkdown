@@ -1,0 +1,60 @@
+---
+title: "Visualizing Data (Customization)"
+linktitle: "04: Visualizing Data, part 2"
+module: "4"
+date: "2021-02-02"
+start_date: "2021-02-02"
+end_date: "2021-02-08"
+menu:
+  content:
+    parent: Course content
+    weight: 4
+type: docs
+toc: true
+slides: "03-slides"
+draft: false
+---
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+# second lecture
+playlist_id_gg2 <- "PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9"
+
+video_details_gg2 <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "4ycrwN2KHJw", "01 - Visualizing data (customization)",
+  "ofPFexm5g3Q", "02 - Visualizing data (customization)",
+  "YydDmgJpyng", "03 - Visualizing data (customization)",
+  "rqVgchsgbFI", "04 - Visualizing data (customization)",
+  "3yPtWywM8Vs", "05 - Visualizing data (customization)",
+  "ReXxsy84YKI", "06 - Visualizing data (customization)"
+)
+```
+
+
+## Required content
+
+- <i class="fab fa-youtube"></i> Lecture and exercises: Visualizing data (customization) ([see below](#lecture-visualizing-data-customization))
+
+## Want more practice? Try these suggested exercises
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)
+  - [Exercises 3.5.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-2)
+    - Questions 1 and 5
+  - [Exercises 3.6.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-3)
+    - Question 5
+  - [Exercises 3.7.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-4)
+    - Question 2
+  - [Exercises 3.9.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-6)
+    - Questions 1 and 4
+
+## Lecture: Visualizing data (customization) 
+
+### Exercises
+
+You can find the material for the exercises in `04-ggplot_customizing`
+
+### Videos
+
+```{r show-youtube-list2, echo=FALSE, results="asis"}
+youtube_list(video_details_gg2, playlist_id_gg2)
+```

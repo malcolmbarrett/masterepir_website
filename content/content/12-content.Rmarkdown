@@ -1,0 +1,57 @@
+---
+title: "Web Apps with Shiny"
+linktitle: "13: Web Apps with Shiny"
+module: "13"
+date: "2021-03-16"
+start_date: "2021-03-16"
+end_date: "2021-03-22"
+menu:
+  content:
+    parent: Course content
+    weight: 13
+type: docs
+toc: true
+slides: "09-slides"
+draft: false
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjQrQ7miWqe634TwHtLKqlMl"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "zZVJLDNHYls", "01 - Web Apps with Shiny",
+  "06nKIVfc5yk", "02 - Web Apps with Shiny",
+  "9yu-KuG1Mi4", "03 - Web Apps with Shiny",
+  "AumY60_i7V0", "04 - Web Apps with Shiny"
+)
+```
+
+## Required content
+- <i class="fab fa-youtube"></i> Lecture and exercises: Shiny ([see below](#lecture-shiny))
+
+## Suggested content
+
+- <i class="fas fa-book"></i> [Mastering Shiny: Part 1](https://mastering-shiny.org/)
+
+
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Mastering Shiny: Parts 2-4](https://mastering-shiny.org/)
+- <i class="fas fa-external-link-square-alt"></i> [Custom theming in Shiny & R Markdown with bslib & thematic](https://rstudio.com/resources/rstudioglobal-2021/custom-theming-in-shiny-and-r-markdown-with-bslib-and-thematic/)
+- <i class="fas fa-external-link-square-alt"></i> [Making Shiny apps faster with caching](https://rstudio.com/resources/rstudioglobal-2021/making-shiny-apps-faster-with-caching/)
+
+## Lecture: Shiny
+
+### Exercises
+
+You can find the material for the exercises in `13-shiny_basics`
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+

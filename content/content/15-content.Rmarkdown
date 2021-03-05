@@ -1,0 +1,44 @@
+---
+title: "What's Next?"
+linktitle: "16: What's next?"
+module: "16"
+date: "2021-03-16"
+start_date: "2021-03-16"
+end_date: "2021-03-22"
+menu:
+  content:
+    parent: Course content
+    weight: 16
+type: docs
+toc: true
+slides: "09-slides"
+draft: false
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjSklFLLkjWeU4RLvBl4O1D2"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "2-_FBCID_ec", "01 - Best Practices in R and What’s Next"
+)
+```
+
+## Required content
+- <i class="fab fa-youtube"></i> Lecture: What’s Next? ([see below](#lecture-whats-next))
+
+## Suggested content
+
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Maintaining R](https://rstats.wtf/maintaining-r.html)
+
+## Lecture: What’s Next?
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+

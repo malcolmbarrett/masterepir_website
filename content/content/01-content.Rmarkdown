@@ -1,0 +1,56 @@
+---
+title: "Reading Data"
+linktitle: "01: Reading Data"
+module: "1"
+date: "2021-01-19"
+start_date: "2021-01-19"
+end_date: "2021-01-25"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+toc: true
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjTWyn6xaW_F8ALJQx4AV4S3"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "BKx664VKf2M", "01 - Reading Data",
+  "6cYFP-mE1So", "02 - Reading Data",
+  "d2CNVRegqRA", "03 - Reading Data",
+  "3KlgE11aCqQ", "04 - Reading Data",
+  "LQa-L3kAOms", "05 - Reading Data"
+)
+```
+
+
+## Required content
+- <i class="fab fa-youtube"></i> Lecture and exercises: Reading data ([see below](#lecture-reading-data))
+
+## Suggested content
+- <i class="fas fa-book"></i> [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
+
+## Want more practice? Try these suggested exercises
+
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
+  - [Exercises 11.2.2](https://r4ds.had.co.nz/data-import.html#exercises-21)
+    - Questions 1-5
+  - [Exercises 11.3.5](https://r4ds.had.co.nz/data-import.html#exercises-22)
+    - Questions 1, 2, and 5
+
+## Lecture: Reading data
+
+### Exercises
+
+You can find the material for the exercises in `01-reading_data`
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+
