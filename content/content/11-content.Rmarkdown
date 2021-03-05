@@ -23,7 +23,7 @@ draft: false
 
 In a culmination of the tools we've learned so far, this assignment will take you through an entire analysis--the whole game of data science, so to speak--where you will predict survival on the Titanic.
 
-You can find the assignment under `12-whole_game`. 
+You can find the assignment under `12-ds_whole_game`. 
 
 **Please complete the assignment on RStudio Cloud.** You do not need to formally submit the assignment; we can see your workspace, so the most recent state of your `whole_game.Rmd` file is what we will grade. 
 
